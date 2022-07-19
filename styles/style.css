@@ -1,6 +1,7 @@
 /* font */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
+/*----------------- first-header-and-section-start--------------------- */
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
@@ -18,7 +19,9 @@ body {
 
 main {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
 
 }
 
@@ -72,6 +75,7 @@ main {
 
 .top1 {
     padding: 35px;
+    margin-bottom: opx;
     color: #562EFF;
 }
 
@@ -113,11 +117,90 @@ hr {
 }
 
 .Child-div2 img {
-    width: 177px;
+    width: 197px;
     height: 177px;
+}
+
+.blogs {
+    display: flex;
+    align-items: center;
+    padding-top: -30px;
 
 }
 
+.ancor {
+    color: gray;
+}
+
+.ancor a {
+    text-decoration: none;
+}
+
 .top-blogs {
+    padding: 30px;
+    padding-top: -15px;
+}
+
+/*------------------ first-section -and-headar-end -------------------- */
+.sceond-section-class {
+    width: 1070px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    margin-top: 21px;
+
+}
+
+.div-lates-course {
     display: flex;
+    justify-content: space-evenly;
+}
+
+.course-text p {
+    color: #ED6B4F;
+
+}
+
+.lates-course img {
+    width: 224px;
+    height: 104px;
+}
+
+.lates-course {
+    width: 290.42px;
+    height: 269.79px;
+    filter: box-shadow(0px 5px 13px rgba(0, 0, 0, 0.05));
+    padding-bottom: 24px
+}
+
+
+
+.course-info {
+    display: flex;
+    align-items: center;
+}
+
+.course-info p {
+    color: #A2A2A2;
+    padding: 10px;
+    padding-right: 30px;
+}
+
+.fa-star.filled {
+    color: #FFC014;
+}
+
+.fa-star.empty {
+    color: #AEAEAE;
+}
+
+.time {
+    background-color: #FFE4E8;
+    color: #FF4A60;
+    width: 94.83px;
+    height: 29.38px;
+    border-radius: 14.69px;
+    padding-top: 8px;
+    padding-left: 8px;
+
+
 }
